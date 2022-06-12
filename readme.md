@@ -7,7 +7,7 @@
 ______________________________________
 💻 Here is a small exercise carried out as part of my personal learning in web junior developer within BeCode :school_satchel:
 
-☺️ I created a dark fashion version inspired by one of my favorite animals: Alpacas 🦙
+☺️ I created a dark fashion version inspired by one of my favorite animals: Alpacas 🦙😅
 
 # Look 🔎
 
