@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mode Nuit</title>
+</head>
+<body>
+    <button id="themeLogo">&#9789;</button>
+
+    <div class="container">
+        <h1>Les Alpagas</h1>
+
+            <div class="article">
+                <h2>Alpaga</h2>
+                <img src="https://images.radio-canada.ca/q_auto,w_1250/v1/ici-info/16x9/alpaga-2.jpg" alt="image Alpaga">
+                <p>Né sur les hauts plateaux andins, le petit camélidé est aujourd’hui élevé dans le monde entier, du continent austral jusqu’en Europe. Doux et intelligent, l’alpaga a vite fait ami-ami avec l’homme qui l’a domestiqué il y a des milliers d’années. Zoom sur un animal très sociable qui ne peut vivre autrement qu’en groupe.</p>
+                <p>L'alpaga (Vicugna pacos) est un mammifère domestique originaire d'Amérique du Sud appartenant à la famille des camélidés dans le genre Vicugna comme la vigogne dont il est le descendant. Il existe deux types d’alpaga : le huacaya et le suri. La majorité des alpagas (93%) sont de type huacaya.</p>
+            </div>
+    
+    <div class="container2">
+    
+                <div class="article2">
+                    <h2>Un air de famille</h2>
+                    <img src="https://www.alpagasfibrefine.com/wp-content/uploads/2018/04/lama-ou-alpaga-image.jpg" alt="image Alpaga">
+                    <p>Né sur les hauts plateaux andins, le petit camélidé est aujourd’hui élevé dans le monde entier, du continent austral jusqu’en Europe. Doux et intelligent, l’alpaga a vite fait ami-ami avec l’homme qui l’a domestiqué il y a des milliers d’années. Zoom sur un animal très sociable qui ne peut vivre autrement qu’en groupe.</p>
+                </div>
+    <div class="container3">
+    
+                <div class="article3">
+                    <h2>L’alpaga : avec ou sans mèche</h2>
+                    <img src="https://www.allnatura.fr/bild/essenziell/alpaka720x405.jpg" alt="image Alpaga">
+                    <p>La palette de couleurs du pelage varie du blanc pur au brun avec des nuances de gris et de noir profond. Des spécimens multicolores présentent aussi de nombreuses variantes. L'alpaga suri possède une toison à poil long qui forme des mèches très caractéristiques sur l'ensemble du corps et qui arborent différentes formes : très fines et droites pour certains, des mèches plus grosses qui tournent sur elles-mêmes pour d’autres. L'alpaga huacaya possède une toison ressemblant à celle du mouton, avec des poils mi-longs et frisés ou ondulés.</p>
+                </div>
+    <div class="container4">
+    
+                <div class="article4">
+                    <h2>Trois estomacs pour l’alpaga</h2>
+                    <img src="https://th.bing.com/th/id/R.78d843b4058159c195f70888083d255f?rik=E61lFtz8usAYRg&pid=ImgRaw&r=0" alt="image Alpaga">
+                    <p>Le régime alimentaire de ce mammifère herbivore se compose d’herbes, de graminées, de foin. Il peut aussi chercher à brouter les haies et a une préférence particulière pour les jeunes pousses. Sil'alpaga rumine, il n'est pas classé dans le sous-ordre des ruminants mais des tylopodes.</p>
+                    <p>Il diffère des ruminants traditionnels par le nombre de ses estomacs (trois au lieu de quatre), et ne possèdent pas de cornes ni de sabots. Sa consommation moyenne de nourriture est de 1,5 à 2 kg par jour et peut atteindre 3 kg pour une femelle alpaga en gestation</p>
+                </div>            
+
+        <div class="actionBtn">
+            <button class="btn precedent">&#11207;</button>
+            <button class="btn suivant">&#11208;</button>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script>
+        const html = document.getElementsByTagName('html')[0];
+        const themeSwitch = document.getElementById('themeLogo');
+
+        themeSwitch.addEventListener('click', () => {
+            html.classList.toggle('nuit');
+
+            if(html.classList.contains('nuit')){
+                themeSwitch.innerHTML = '&#9788;';
+            }else {
+                themeSwitch.innerHTML = '&#9789;';
+            }
+        })
+    </script>
+</body>
+</html>
